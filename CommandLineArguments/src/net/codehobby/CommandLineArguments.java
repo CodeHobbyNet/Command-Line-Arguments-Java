@@ -61,6 +61,15 @@ public class CommandLineArguments
     }
     
     /**
+     * A method to get the arguments stored in the object.
+     * @return The arguments stored in the object.
+     */
+    public String[] getArgs()
+    {
+        return args;
+    }
+    
+    /**
      * The main method of the class. This does the parsing of the args and returns back a Map of the parsed args.
      * @return A Map with String keys and String values. The key is the argument and the value is the command line value associated with the argument if there is one. If there isn't a command line value, the value is a null string.
      * @throws Exception If the method can't parse the arguments, it'll throw an error.
