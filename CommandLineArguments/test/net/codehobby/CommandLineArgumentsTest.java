@@ -43,17 +43,21 @@ import org.junit.Test;
  *
  * @author Jeff Crone
  */
-public class CommandLineArgumentsTest {
+public class CommandLineArgumentsTest
+{
     
-    public CommandLineArgumentsTest() {
+    public CommandLineArgumentsTest()
+    {
     }
     
     @BeforeClass
-    public static void setUpClass() {
+    public static void setUpClass()
+    {
     }
     
     @AfterClass
-    public static void tearDownClass() {
+    public static void tearDownClass()
+    {
     }
 
     /**
